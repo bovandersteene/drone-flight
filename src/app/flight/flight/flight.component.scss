@@ -1,0 +1,21 @@
+mat-card-footer {
+  display: flex;
+  padding: 0 20px 20px;
+  mat-form-field {
+    flex: 1;
+  }
+  button {
+    margin: 10px 0 10px 20px;
+  }
+}
+
+form {
+  display: block;
+  height: calc(100% - 40px);
+  mat-card {
+    height: calc(100% - 36px);
+    mat-card-content {
+      height: calc(100% - 80px);
+    }
+  }
+}

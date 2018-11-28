@@ -1,0 +1,38 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`InfoComponent should match the snapshot 1`] = `
+<div
+  id="root1"
+  ng-version="7.1.0"
+>
+  <h1
+    mat-dialog-title=""
+  >
+    Info about drone-flight
+  </h1>
+  <div
+    mat-dialog-content=""
+  >
+    <mat-list>
+      <mat-list-item>
+        Create a node on left click
+      </mat-list-item>
+      <mat-list-item>
+        Delete a node with a click
+      </mat-list-item>
+      <mat-list-item>
+        Drag a node to move
+      </mat-list-item>
+    </mat-list>
+  </div>
+  <div
+    mat-dialog-actions=""
+  >
+    <button
+      mat-button=""
+    >
+      Close
+    </button>
+  </div>
+</div>
+`;

@@ -1,0 +1,31 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`MapComponent should match the snapshot 1`] = `
+<div
+  id="root1"
+  ng-version="7.1.0"
+>
+  <agm-map>
+    <!--bindings={
+  "ng-reflect-ng-for-of": "[object Object],[object Object"
+}-->
+    <agm-marker />
+    <agm-marker />
+    <agm-marker />
+    <agm-polyline>
+      <!--bindings={
+  "ng-reflect-ng-for-of": "[object Object],[object Object"
+}-->
+      <agm-polyline-point
+        color="red"
+      />
+      <agm-polyline-point
+        color="red"
+      />
+      <agm-polyline-point
+        color="red"
+      />
+    </agm-polyline>
+  </agm-map>
+</div>
+`;

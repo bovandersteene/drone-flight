@@ -1,0 +1,75 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`FlightComponent navigate to an NON existing flight should render the component with values: NON existing flight 1`] = `
+<div
+  id="root4"
+  ng-version="7.1.0"
+>
+  <form>
+    <mat-card>
+      <mat-card-content>
+        <!--bindings={
+  "ng-reflect-ng-if": "[object Object]"
+}-->
+        <app-map />
+      </mat-card-content>
+      <mat-card-footer>
+        <mat-form-field
+          class="example-full-width"
+        >
+          <input
+            formcontrolname="name"
+            matinput=""
+            placeholder="Flight name"
+            type="text"
+          />
+        </mat-form-field>
+        <button
+          color="primary"
+          mat-raised-button=""
+          type="submit"
+        >
+          Save
+        </button>
+      </mat-card-footer>
+    </mat-card>
+  </form>
+</div>
+`;
+
+exports[`FlightComponent navigate to an existing flight should render the component with values: existing flight 1`] = `
+<div
+  id="root2"
+  ng-version="7.1.0"
+>
+  <form>
+    <mat-card>
+      <mat-card-content>
+        <!--bindings={
+  "ng-reflect-ng-if": "[object Object]"
+}-->
+        <app-map />
+      </mat-card-content>
+      <mat-card-footer>
+        <mat-form-field
+          class="example-full-width"
+        >
+          <input
+            formcontrolname="name"
+            matinput=""
+            placeholder="Flight name"
+            type="text"
+          />
+        </mat-form-field>
+        <button
+          color="primary"
+          mat-raised-button=""
+          type="submit"
+        >
+          Save
+        </button>
+      </mat-card-footer>
+    </mat-card>
+  </form>
+</div>
+`;

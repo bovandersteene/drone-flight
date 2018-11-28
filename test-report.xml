@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testExecutions version="1">
+  <file path="/Users/bovandersteene/projects/github/drone-flight/src/app/flight/service/flight.service.spec.ts">
+    <testCase name="FlightService should be created" duration="50"/>
+  </file>
+  <file path="/Users/bovandersteene/projects/github/drone-flight/src/app/store/app.effects.spec.ts">
+    <testCase name="AppEffects should be created" duration="55"/>
+  </file>
+  <file path="/Users/bovandersteene/projects/github/drone-flight/src/app/store/flight/fligth.efffect.spec.ts">
+    <testCase name="FlightEffect should exist" duration="54"/>
+    <testCase name="FlightEffect [Flight] Load Flights should render a LoadFlightsSuccess" duration="20"/>
+    <testCase name="FlightEffect [Flight] Save Flight should render a SaveFlightSuccess" duration="12"/>
+  </file>
+  <file path="/Users/bovandersteene/projects/github/drone-flight/src/app/store/flight/flight.reducer.spec.ts">
+    <testCase name="Flight Reducer [Flight] Load Flights Success should set the flights" duration="4"/>
+    <testCase name="Flight Reducer [Flight] Active location should set the active location" duration="2"/>
+    <testCase name="Flight Reducer [Flight] Save Flight Succss flight already exists should update the existing flight on the state" duration="6"/>
+    <testCase name="Flight Reducer [Flight] Save Flight Succss New flight should add the flight to the state" duration="2"/>
+    <testCase name="Flight Reducer unknown action should return the initial state" duration="0"/>
+  </file>
+  <file path="/Users/bovandersteene/projects/github/drone-flight/src/app/info/info.component.spec.ts">
+    <testCase name="InfoComponent should create" duration="108"/>
+    <testCase name="InfoComponent should match the snapshot" duration="32"/>
+    <testCase name="InfoComponent on close click should open the info dialog" duration="20"/>
+  </file>
+  <file path="/Users/bovandersteene/projects/github/drone-flight/src/app/flight/flight/flight.component.spec.ts">
+    <testCase name="FlightComponent should create" duration="175"/>
+    <testCase name="FlightComponent navigate to an existing flight should set the form" duration="50"/>
+    <testCase name="FlightComponent navigate to an existing flight should render the component with values" duration="31"/>
+    <testCase name="FlightComponent navigate to an NON existing flight should set the form with default values" duration="23"/>
+    <testCase name="FlightComponent navigate to an NON existing flight should render the component with values" duration="31"/>
+    <testCase name="FlightComponent saveFlight the form is not valid should not dispatch the saveFlight" duration="21"/>
+    <testCase name="FlightComponent saveFlight the form is valid the paths are empty should not dispatch the saveFlight" duration="23"/>
+    <testCase name="FlightComponent saveFlight the form is valid the paths are empty the paths is set should not dispatch the saveFlight" duration="32"/>
+    <testCase name="FlightComponent saveFlight changeLocation should set the location" duration="29"/>
+  </file>
+  <file path="/Users/bovandersteene/projects/github/drone-flight/src/app/flight/map/map.component.spec.ts">
+    <testCase name="MapComponent should create" duration="113"/>
+    <testCase name="MapComponent should match the snapshot" duration="31"/>
+    <testCase name="MapComponent moveNode should call the change the node position" duration="32"/>
+    <testCase name="MapComponent deleteNode should call the delete the node" duration="23"/>
+    <testCase name="MapComponent addNode should call the add the path to the pathlist" duration="26"/>
+    <testCase name="MapComponent centerChanged should change the location" duration="20"/>
+  </file>
+  <file path="/Users/bovandersteene/projects/github/drone-flight/src/app/app.component.spec.ts">
+    <testCase name="AppComponent should create the app" duration="140"/>
+    <testCase name="AppComponent should match the default snapshot" duration="66"/>
+    <testCase name="AppComponent it should load the flights" duration="31"/>
+    <testCase name="AppComponent on info click should open the info dialog" duration="29"/>
+  </file>
+</testExecutions>

@@ -1,0 +1,50 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AppComponent should match the default snapshot 1`] = `
+<div
+  id="root1"
+  ng-version="7.1.0"
+>
+  <mat-sidenav-container>
+    <mat-sidenav
+      mode="side"
+      opened=""
+    >
+      <mat-nav-list>
+        <!--bindings={
+  "ng-reflect-ng-for-of": "[object Object]",
+  "ng-reflect-ng-for-track-by": "function (flight) {\\n        /*"
+}-->
+        <a
+          href="/flight/2"
+          mat-list-item=""
+          ng-reflect-router-link="flight,2"
+          ng-reflect-router-link-active="active"
+          routerlinkactive="active"
+        >
+          Flight Lausanne
+        </a>
+      </mat-nav-list>
+    </mat-sidenav>
+    <mat-sidenav-content>
+      <router-outlet />
+    </mat-sidenav-content>
+  </mat-sidenav-container>
+  <a
+    class="flight-new"
+    color="primary"
+    href="/flight"
+    mat-fab=""
+    ng-reflect-router-link="/flight"
+    routerlink="/flight"
+  >
+    +
+  </a>
+  <button
+    class="flight-info"
+    mat-fab=""
+  >
+    i
+  </button>
+</div>
+`;

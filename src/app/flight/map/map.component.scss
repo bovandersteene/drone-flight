@@ -1,0 +1,12 @@
+agm-map {
+  height: calc(100% - 20px);
+}
+button {
+  position: fixed;
+  bottom: 20px;
+  left: 20px;
+  z-index: 3000;
+}
+mat-form-field {
+  width: 100%;
+}

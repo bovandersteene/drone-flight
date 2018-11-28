@@ -1,0 +1,25 @@
+<form [formGroup]="flightForm" (submit)="saveFlight()">
+  <mat-card>
+    <mat-card-content>
+      <app-map
+        *ngIf="(flight$ | async) as flight"
+        [latitude]="flight.location.lat"
+        [longitude]="flight.location.lng"
+        [paths]="flight.path"
+        (changeLocation)="changeLocation($event)"
+        (changePath)="changePath($event)"
+      ></app-map>
+    </mat-card-content>
+    <mat-card-footer>
+      <mat-form-field class="example-full-width">
+        <input
+          type="text"
+          formControlName="name"
+          matInput
+          placeholder="Flight name"
+        />
+      </mat-form-field>
+      <button mat-raised-button color="primary" type="submit">Save</button>
+    </mat-card-footer>
+  </mat-card>
+</form>
